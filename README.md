@@ -25,11 +25,7 @@
 
 ## About
 
-Lab developed for the purposes of teaching about topics related to memory safety vulnerabilities and understanding low level program behavior with a debugger.<br>
-
-As a TA I would recommend that my students work collaboratively on labs in groups of 2-3 students. This was not strictly required, and I encouraged my students to do whatever was most helpful for their learning.
-
-A useful tool for this lab, and a major focus of it is the GNU Debugger (GDB).
+Lab developed for teaching about a fuzzing tool called AFL. Using AFL to find interesting crashing inputs of programs, and try out some attacker techniques related to heap vulnerabilities. To be precise I taught on AFL++ a more recent forked version.
 
 ---
 
