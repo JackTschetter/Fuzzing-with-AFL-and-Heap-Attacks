@@ -67,7 +67,7 @@ For anyone interested the command used to compile the victim binary on Ubuntu Li
     bcimgview.c -o bcimgview \
     -lgtk-3 -lgobject-2.0 -lglib-2.0 -lgdk_pixbuf-2.0 -lm**
 
-${\color{red}WARNING}$ This is intentionally buggy/vulnerable code created for the purpose of teaching a class on software security. This command compiles the binary in a way that intentionally disables various defense mechanisms against certain kinds of attacks.
+${\color{red}WARNING}$ This is intentionally vulnerable low level code and source code that deliberately ignores software engineering best practices. These files were created for the sole purpose of teaching a class on Designing and Developing Secure Software. The command used to compile the binaries does so in a way that intentionally disables various defense mechanisms against certain kinds of attacks. Exercise enhanced caution when downloading and using the provided code.
 
 ---
 
