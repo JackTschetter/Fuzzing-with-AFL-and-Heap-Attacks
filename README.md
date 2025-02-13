@@ -10,17 +10,17 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-    - [Disclaimer](#disclaimer)
 - [Lab](#lab)
     - [Finding the Crash in the Maze](#finding-the-crash-in-the-maze)
     - [Overflowing into an Adjacent Heap Object](#overflowing-into-an-adjacent-heap-object)
     - [Crashing c4](#crashing-c4)
     - [Controlling Object Locations by Sizes](#controlling-object-locations-by-sizes)
     - [Crashing a Decompression Program](#crashing-a-decompression-program)
-- [License](#license)
+- [Usage](#usage)
+    - [Disclaimer](#disclaimer)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
+- [License](#license)
 
 ---
 
