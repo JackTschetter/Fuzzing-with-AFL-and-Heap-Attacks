@@ -81,7 +81,9 @@ Next let's see if AFL can find the potion (crash) as well. To do this we first r
 
 **afl-cc -g maze.c -o maze-for-afl**
 
-The maze that AFL needs to explore isn't really that large, but changing the input to the game randomly would still take a long time to get to the goal, because there are only a few legal commands. The most useful thing to do is to give it a dictionary of the legal commands in the game. This is like a simplified form of grammar-based fuzzing, where we just provide some useful tokens rather than a full grammar. We supplied a sample dictionary for students to use.
+The maze that AFL needs to explore isn't really that large, but changing the input to the game randomly would still take a long time to get to the goal, because there are only a few legal commands. The most useful thing to do is to give it a dictionary of the legal commands in the game. This is like a simplified form of grammar-based fuzzing, where we just provide some useful tokens rather than a full grammar. We supplied a sample dictionary for students to use. This is available in this repository under src.<br>
+
+Another thing AFL needs to get started is a directory of seed inputs. A bunch of good seeds are potentially another way to give AFL information about what the input format should look like. On the other hand large seeds can cause some parts of AFL to slow down, so you can potentially put a lot of work into optimal seeds. But because we're already helping with the dictionary, choosing good inputs turns out not to be as important. Let's create a minimal set with just one
 
 ### Overflowing into an Adjacent Heap Object
 
