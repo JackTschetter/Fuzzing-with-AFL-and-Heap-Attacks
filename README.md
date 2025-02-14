@@ -26,7 +26,9 @@
 
 ## About
 
-Lab developed for teaching about a fuzzing tool called AFL. Using AFL to find interesting crashing inputs of programs, and try out some attacker techniques related to heap vulnerabilities. To be precise I taught on AFL++ a more recent forked version.
+Lab developed for teaching about a fuzzing tool called AFL. Using AFL to find interesting crashing inputs of programs, and try out some attacker techniques related to heap vulnerabilities. To be precise I taught on AFL++ a more recent forked version.<br>
+
+In this lab I started out by walking my students through a contrived example based on a text adventure game. Then moved on to increasingly realistic programs. Mixed in are two sample programs to try heap related manipulations.
 
 ---
 
