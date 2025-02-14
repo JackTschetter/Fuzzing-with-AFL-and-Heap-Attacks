@@ -81,7 +81,9 @@ ${\color{red}WARNING}$ This is intentionally vulnerable low level code and sourc
 
 ### Crashing C4
 
-### Controlling Object Locations via Sizes
+### Controlling Object Locations by Sizes
+
+### Crashing a Decompression Program
 
 ---
 
