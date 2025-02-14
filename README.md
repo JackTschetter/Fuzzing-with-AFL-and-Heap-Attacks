@@ -58,15 +58,6 @@ In this lab I started out by walking my students through a contrived example bas
 
 This repo provides a precompiled victim binary. This victim binary was compiled from the bcimgview.c source on a Linux x86-64 machine, so it should work on most recent Linux systems. I just recently was able to get the program to work, with slight modifications, on my brand new MacBook air which has an ARM based M3/Apple Silicon chip. This was A LOT of extra work, so please stick with the provided binary on Ubuntu Linux 22.04 for best results.
 
-If their are any die hard Mac lovers such as myself, feel free to contact me and I can walk you through how to get this running on your device and OS.
-
-For anyone interested the command used to compile the victim binary on Ubuntu Linux 22.04 was<br>
-
-**gcc -no-pie -fno-stack-protector -Og -g -Wall \
-    $(pkg-config --cflags gtk+-3.0) \
-    bcimgview.c -o bcimgview \
-    -lgtk-3 -lgobject-2.0 -lglib-2.0 -lgdk_pixbuf-2.0 -lm**
-
 ${\color{red}WARNING}$ This is intentionally vulnerable low level code and source code that deliberately ignores software engineering best practices. These files were created for the sole purpose of teaching a class on Designing and Developing Secure Software. The command used to compile the binaries does so in a way that intentionally disables various defense mechanisms against certain kinds of attacks. Exercise enhanced caution when downloading and using the provided code.
 
 ---
