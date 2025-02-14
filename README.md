@@ -73,6 +73,18 @@ ${\color{red}WARNING}$ This is intentionally vulnerable low level code and sourc
 
 ---
 
+## Lab
+
+### Finding the Crash in the Maze
+
+### Overflowing into an Adjacent Heap Object
+
+### Crashing C4
+
+### Controlling Object Locations via Sizes
+
+---
+
 ## Usage
 
 This project was created for the purposes of teaching the class Designing and Developing Secure Software at UMN Twin Cities. For teaching purposes we provided students in the course the same source code, sample images, and pre compiled binary available for download from this repo. 
