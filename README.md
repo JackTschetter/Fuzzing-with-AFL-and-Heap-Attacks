@@ -46,9 +46,7 @@ In this lab I started out by walking my students through a contrived example bas
 
 - A machine running Ubuntu 22.04. The program should on most recent Linux systems, although the supported configuration is Ubuntu 22.04.
 - C. The entire project was written using C programming language.
-- GTK 3 family of GUI libraries. This assumes you want a GUI version.
-- (Optional) The precompiled binary from this repository.
-- (Optional) A hexadecimal editor. 
+- A suitable version of AFL++ compatible with a machine running Ubuntu 22.04.
 
 ### Installation
 
