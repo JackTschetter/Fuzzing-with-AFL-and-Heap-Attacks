@@ -75,6 +75,14 @@ ${\color{red}WARNING}$ This is intentionally vulnerable low level code and sourc
 
 ### Finding the Crash in the Maze
 
+Our first example is modeled after a text adventure game. Getting the program to crash is like a game event. You can try compiling the program normally and running it with commands on the standard input. It is simple enough that with a little bit of reading of the source code contained in maze.c students should have been able to find how to get the magic potion.<br>
+
+Next let's see if AFL can find the potion (crash) as well. To do this we first recompile the program using afl-cc.<br>
+
+**afl-cc -g maze.c -o maze-for-afl**
+
+The maze that AFL needs to explore isn't really that large, but changing the input to the game randomly would still take a long time to get to the goal, because there are only a few legal commands. The most useful thing to do is to give it a dictionary of the legal commands in the game. This is like a simplified form of grammar-based fuzzing, where we just provide some useful tokens rather than a full grammar. We supplied a sample dictionary for students to use.
+
 ### Overflowing into an Adjacent Heap Object
 
 ### Crashing C4
